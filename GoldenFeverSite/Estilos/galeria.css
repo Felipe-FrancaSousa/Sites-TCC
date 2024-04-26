@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/* Design da galeria na parte de download da página principal do site */
+
+.galeria
+{
+	width: 90%;
+	max-width: 800px;
+	height: 450px;
+	margin: 0 0 0 0 !important;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	overflow: hidden;
+}
+
+
+

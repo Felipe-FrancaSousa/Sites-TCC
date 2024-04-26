@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/* Esse é o estilo do artigo Sobre da página inicial do site */
+
+#boxesSobre
+{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.boxSobre
+{
+	width: 380px;
+	height: 470px;
+	margin: 10px 5px;
+	display: inline-block;
+	overflow: hidden;
+	background-image: url(../Imagens/teste.jpg);
+	transition: 0.3s;
+	box-sizing: border-box;
+	cursor: default;
+}
+
+.boxSobreTexto
+{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	margin-top: 95%;
+	padding: 20px 30px 0;
+	background: #333;
+	color: #FFF;
+	text-align: center;
+	transition: 0.3s;
+}
+
+.boxSobre:hover .boxSobreTexto
+{
+	margin-top: 60%;
+}
+
+.boxSobre:hover
+{
+	background-position: 0% -300%;
+}
+
+.boxSobreTexto h2, .boxSobreTexto p
+{
+	width: auto;
+}
+
+@media only screen and (max-width: 995px)
+{
+	.boxSobre
+	{
+		width: 300px;
+		height: 420px;
+		background-position: center;
+	}
+	
+	.boxSobreTexto
+	{
+		width: 100%;
+		height: 100%;
+		box-sizing: border-box;
+		margin-top: 58%;
+		padding: 20px 30px 0;
+		background: #333;
+		color: #FFF;
+		text-align: center;
+		transition: 0.3s;
+	}
+
+	.boxSobre:hover
+	{
+		background-position: center;
+	}
+	
+	.boxSobreTexto p
+	{
+		font-size: 14pt;
+	}
+	
+	.boxSobreTexto h2
+	{
+		font-size: 22pt;
+	}
+}

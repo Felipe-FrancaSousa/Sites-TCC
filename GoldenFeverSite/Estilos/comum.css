@@ -1,0 +1,375 @@
+﻿@charset "utf-8";
+
+/* CSS Document */
+
+/* Estilo de todo o corpo em comum dos sites do jogo */
+
+html
+{
+    touch-action: manipulation;
+	width: 100%;
+	position: relative;
+}
+
+/* Body */
+
+body
+{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Pixel;
+	padding-top: 115px;
+	overflow-y: scroll;
+	position: relative;
+	text-align: center;
+}
+
+/* Barra de Navegação */
+
+nav
+{
+	width: 100vw;
+	height: 115px;
+	font-size: 20px;
+	text-align: center;
+	color: #FFF;
+	background-color: #141555;
+	position: fixed;
+	top: 0;
+	z-index: 10 !important;
+    transition: 0.3s;
+}
+
+nav *
+{ 	
+	color: #FFF;
+}
+
+nav a, nav a:active, nav a:visited
+{
+	text-decoration: none;
+	color: #FFF;
+}
+
+nav ul
+{
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#mobile
+{
+	height: 250px;
+	margin-top: 50px;
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.mobile
+{
+	font-size: 20pt;
+	text-align: center;
+	height: 30px;
+}
+
+nav li
+{
+	list-style: none;
+	width: 130px;
+	height: 76px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.icones
+{
+	width: 76px;
+	height: 76px;
+	list-style: none;
+	overflow: hidden;
+	transition: .3s;
+	padding: 0;
+}
+
+.icones:hover
+{
+	width: 115px;
+	height: 130px;
+	padding-top: 38px;
+	background-color: #333;
+}
+
+#contaOnline:hover
+{
+	height: 180px;
+	padding-top: 88px
+}
+
+.icones:hover img
+{
+	width: 96px;
+	height: 96px;
+	margin-bottom: 3px;
+}
+
+.icones img
+{
+	width: 76px;
+	height: 76px;
+	transition: .3s;
+	margin-bottom: 50px;
+	image-rendering: pixelated;
+}
+
+#oculto
+{
+	display:none;
+}
+
+nav ul > .tocha
+{
+	width: 34px;
+	height: 100px;
+	margin: 0 auto;
+	image-rendering: pixelated;
+}
+
+.divLogo
+{
+	width: 180px;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.divLogo img
+{
+	width: 130px;
+	height: 100px;
+	transition: .3s;
+}
+
+.divLogo img:hover
+{
+	transform: scale(1.2);
+	margin-top: 25px;
+}
+
+#menuCheck
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+
+.aConta
+{
+    transition: 0.3s;
+    margin-bottom: 5px;
+}
+
+.aConta:hover
+{
+    color: goldenrod;
+}
+
+@media only screen and (min-width: 1221px) 
+{
+	nav ul
+	{
+		min-width: 1180px;
+		max-width: 80%;
+	}
+}
+
+@media only screen and (max-width: 1220px) 
+{
+	nav ul
+	{
+		width: 940px;
+	}
+
+	nav ul > .tocha
+	{
+		display: none;
+	}
+
+	.divLogo
+	{
+		width: 230px;
+	}
+}
+
+@media only screen and (max-width: 970px) 
+{
+	nav
+	{
+		height: 100px;
+	}
+
+	nav ul
+	{
+		width: 750px;
+	}
+
+	nav li
+	{
+		width: 100px;
+		height: 56px;
+	}
+
+	.icones
+	{
+		width: 56px;
+		height: 56px;
+	}
+
+	.icones:hover
+	{
+		width: 95px;
+		height: 110px;
+	}
+
+	.icones:hover img
+	{
+		width: 76px;
+		height: 76px;
+	}
+
+	.icones img
+	{
+		width: 56px;
+		height: 56px;
+	}
+
+	.divLogo
+	{
+		width: 140px;
+		height: 90px;
+	}
+
+	.divLogo img
+	{
+		width: 104px;
+		height: 80px;
+	}
+
+	.divLogo img:hover
+	{
+		width: 130px;
+		height: 100px;
+		margin-top: 30px;
+	}
+}
+
+@media only screen and (max-width: 765px) 
+{
+	body
+	{
+		padding-top: 75px;
+	}
+	
+	nav
+    {
+		height: 75px;
+    }
+
+    nav ul
+	{
+		width: 95%;
+        height: 75px;
+	}
+
+	nav li
+	{
+		display: none;
+        height: 76px;
+        width: 128px;
+        font-size: 30pt;
+	}
+
+    .icones
+    {
+        width: 50px;
+        height: 50px;
+    }
+
+    #menu:hover
+    {
+        width: 50px;
+        height: 50px;
+        background-color: transparent;
+        padding-top: 0;
+    }
+	
+	#contaOnline:hover
+	{
+		height: 50px;
+		padding-top: 0;
+		background-color: transparent;
+	}
+	
+	#conta *
+	{
+		display: none;
+	}
+
+	.icones:hover img
+	{
+		width: 50px;
+		height: 50px;
+	}
+
+	.icones img
+	{
+		width: 50px;
+		height: 50px;
+	}
+
+	nav ul > .tocha
+	{
+		display: inherit;
+		width: 22px;
+		height: 65px;
+	}
+
+	#oculto, #conta
+	{
+		display: inherit;
+	}
+	
+	.divLogo
+	{
+		width: 140px;
+		height: 70px;
+	}
+
+	.divLogo img
+	{
+		width: 84px;
+		height: 65px;
+		margin-top: 6px;
+	}
+
+	.divLogo img:hover
+	{
+		width: 84px;
+		height: 65px;
+		margin-top: 5px;
+		transform: scale(1);
+	}
+}

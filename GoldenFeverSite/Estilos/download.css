@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/* Design da seção Download da página inicial do site */
+
+#boxesDownload
+{
+	width: 100%;
+	height: 400px;
+	margin: 50px auto 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.download
+{
+	width: 200px;
+	height: 230px;
+	margin-left: 50px;
+	display: inline-block;
+}
+
+.download img
+{
+	width: 200px;
+	image-rendering: pixelated;
+	margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1221px) {
+
+	#boxesDownload
+    {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 1220px) {
+
+	#boxesDownload
+    {
+        flex-direction: column;
+        height: 600px;
+    }
+	
+	#boxesDownload a
+	{
+		margin-top: 50px;
+	}
+	
+	.download
+	{
+		width: 350px;
+		height: 30px;
+		margin-left: 0;
+	}
+    
+    .download img
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 970px) 
+{
+	#boxesDownload
+    {
+        flex-direction: column;
+        height: 400px;
+    }
+}
