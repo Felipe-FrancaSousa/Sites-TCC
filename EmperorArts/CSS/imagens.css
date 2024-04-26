@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+.CEO{
+	padding-top: 5px;
+	background: linear-gradient(#2989C4, #BFDEF1);
+	margin: 20px auto;
+	width: 220px;
+	height: 293px;
+	text-align: center;
+	border-radius: 5px 5px 100px 100px;
+	box-shadow: 20px 10px 60px 9px  rgba(50, 50, 50, 0.45);;
+	
+}
+
+.funcionarios_esquerda{
+	background: linear-gradient(#2989C4, #BFDEF1);
+	margin: 50px 79px 50px 85px;
+	float: left;
+	width: 220px;
+	height: 293px;
+	text-align: center;
+	border-radius: 5px 5px 100px 100px;
+	box-shadow: 20px 10px 60px 9px  rgba(50, 50, 50, 0.45);
+
+}
+.funcionarios_Direita{
+	background: linear-gradient(#2989C4, #BFDEF1);
+	margin: 50px 79px 50px 85px;
+	float: right;
+	width: 220px;
+	height: 293px;
+	text-align: center;
+	border-radius: 5px 5px 100px 100px;
+	box-shadow: 20px 10px 60px 9px  rgba(50, 50, 50, 0.45);
+
+}
+
+.fotos{
+	background-color: green;
+	border-radius: 120px 120px 110px 110px;
+	width: 220px;
+	height: 223px;
+}
+.caixa_fotos{
+	height: 100%;
+	margin: auto auto;
+	width: 75%;
+}
+
+.flip{
+	text-align: center;
+	border-radius: 5px 5px 100px 100px;
+	padding-top: 70px;
+	margin-top: -70px;
+	width: 220px;
+	height: 223px;
+	perspective: 1000px
+}
+.flip .frente{
+	position: absolute;
+	transform: rotateY(0deg);
+	backface-visibility: hidden;
+	transition: all .5s linear;
+}
+.flip .fundo{
+	position: absolute;
+	transform: rotateY(180deg);
+	backface-visibility: hidden;
+	transition: all .5s linear;
+	filter: grayscale(50%);
+}
+.flip:hover .frente{
+	transform: rotateY(-180deg);
+	cursor: pointer;
+}
+.flip:hover .fundo{
+	transform: rotateY(0deg);
+	cursor: pointer;
+}
+
+.parceria{
+	width: 320px;
+	text-align: center;
+	float: right;
+} 
+.parceria .infotexto{
+	float:right;
+}
+
+.escola{
+	border-radius: 3px;
+	background: rgba(255, 255, 255, 0.2);
+	width: 150px;
+	float: left;
+	margin:10px 5px 0 5px ;
+}
+
+@media only screen and (max-width: 1220px) {
+	.funcionarios_Direita{
+		margin: 50px 10px 50px 10px;
+	}
+	.funcionarios_esquerda{
+		margin: 50px 10px 50px 10px;
+	}
+}
+
+@media only screen and (max-width: 1300px) {
+	.funcionarios_Direita{
+		margin: 50px 10px 50px 10px;
+	}
+	.funcionarios_esquerda{
+		margin: 70px 10px 50px 10px;
+	}
+}
+
+
+

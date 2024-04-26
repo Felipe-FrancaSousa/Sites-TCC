@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+body{padding: 0;
+	margin: 0px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+h1{
+	margin: 20px 0 50px 0;
+	text-align: center;
+	font-family: "Caviar Dreams";
+}
+h2{
+	font-family: "Caviar Dreams";
+}
+p{
+	font-size: medium;
+	color: #000;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+.barra_menor{
+	visibility: hidden;
+	width: 100%;
+	height: 70px;
+	background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1),rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7));
+	position: fixed;
+	z-index: 3;
+}
+.barra_maior{
+	visibility: visible;
+	width: 100%;
+	height: 100px;
+	background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1),rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7));
+	position: absolute;
+	z-index: 3;
+}
+.barra_fantasma{
+	visibility: hidden;
+	width: 100%;
+	height: 200px;
+		
+}
+.botao_barra_maior{
+	font-family: "Caviar Dreams";
+	border-radius: 1px 1px 10px 10px;
+	float: left;
+	margin: 0px 45px;
+	padding-top: 6px;
+	height: 94px;
+	width: 100px;
+	text-align: center;
+	color: black;
+}
+.botao_barra_menor{
+	font-family: "Caviar Dreams";
+	float: left;
+	margin: 0px 70px;
+	padding-top: 6px;
+	height: 94px;
+	width: 100px;
+	text-align: center;
+}
+.bota_ultimo{
+	font-family: "Caviar Dreams";
+	float: left;
+	margin: 0px 70px 0px 0px;
+	padding-top: 6px;
+	height: 94px;
+	width: 100px;
+	text-align: center;
+}
+.img_botao{
+	height: 52px;
+	width: 52px;
+}
+
+.logo_maior{
+	width: inherit;
+	height: inherit;
+}
+.logo_menor{
+	height: inherit;
+}
+.logo_caixa_maior{
+	float: left;
+	margin: 20px 16px;
+	width: 556px;
+	height: 140px;
+}
+.logo_caixa_menor{
+	margin: 0px 165px;
+	float: left;
+	height: 80px;
+}
+
+.primeira_caixa{
+	padding: 0 10%;
+	width: 80%;
+	height: 170vh;
+	background:linear-gradient(#FFFFFF, #55A6FC);
+}
+.segunda_caixa{
+	padding: 0 10%;
+	width: 80%;
+	height: 150vh;
+	background: linear-gradient(#55A6FC, #347EEF);
+}
+.terceira_caixa{
+	padding: 0 10%;
+	width: 80%;
+	height: 170vh;
+	background: linear-gradient(#347EEF, #0015BE);
+}
+.quarta_caixa{
+	padding: 0 10%;
+	width: 80%;
+	height: 150vh;
+	background: linear-gradient(#0015BE, #0D0066); 
+}
+.caixa_principal{
+	padding: 7px;
+	height: inherit;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.7);
+	border-top: 5px solid #373737;
+}
+.rodape{
+	color: #FFFFFF; 
+	border-top: 3px solid #00042A;
+	width: 100%;
+	height: 70px;
+	background: #4D4D4D;
+}
+.infotexto{
+	padding:20px 20px 0 5px;
+	width:250px;
+	float:left;
+}
+.social{
+	width:45px;
+	height:45px;
+	float:right;
+	margin:10px 5px 0 5px ;
+	border-radius:10px 10px;
+	box-shadow:0 5px 20px #333;	
+}
+.siga{
+	margin-top:20px;
+	float:right;
+	margin-right:5px;	
+}
+.missao_visao_valores{
+	text-align: justify;
+	padding: 12px;
+	width: 31%;
+	float: left;
+}
+.CEO{
+	margin: 20px auto;
+	width: 200px;
+	height: 350px;
+	text-align: center;
+	
+}
+.funcionarios{
+	margin: 10px 79px;
+	float: left;
+	width: 200px;
+	height: 300px;
+	text-align: center;
+
+}
+.fotos{
+	border-radius: 100px;
+	width: 200px;
+	height: 200px;
+}
+.contato_texto{
+	margin: 100px 30px;
+	text-align:justify;
+	border-radius:0 10px 10px 0;
+	padding:15px;
+	float:left;
+	width:200px;
+}
+.Contato{
+	color:#000000;
+	width:500px;
+	float:right;
+}
+.formu{
+	float:left;
+	margin:10px;	
+}
+.texto_Historia{
+	margin: auto auto;
+	width: 75%;
+	text-align: justify;
+}
+
+

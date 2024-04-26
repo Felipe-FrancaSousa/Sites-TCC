@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family: "Caviar Dreams";
+	src: url("Fontes/Caviar_Dreams/CaviarDreams.ttf"), local("Fontes/Caviar_Dreams/CaviarDreams.ttf");
+	font-weight: normal;
+  	font-style: normal;
+}
+@font-face{
+	font-family: "Caviar Dreams Bold";
+	src: url("Fontes/Caviar_Dreams/CaviarDreams_Bold.ttf"), local("Fontes/Caviar_Dreams/CaviarDreams_Bold.ttf");
+	font-weight: normal;
+  	font-style: normal;
+}
+
+h1{
+	font-size: 36pt;
+	color: #263340;
+	margin: 20px 0 50px 0;
+	text-align: center;
+	font-family: "Caviar Dreams Bold";
+}
+
+h2{
+	color: #263340;
+	font-family: "Caviar Dreams";
+}
+
+p{
+	font-size: 18pt;
+	color: #263340;
+}
+
+a { 
+	
+	text-decoration:none; 
+}
+
+ul{
+	padding: 0;
+	display: flex;	
+	text-align:center;
+}
+
+li{
+	list-style:none;
+	margin:0 35px;	
+}
+.indroducao_Texto{
+	font-size: 18pt;
+	width: 80%;
+	margin: auto auto;
+	text-align: center;
+}
+
+.contato_texto{
+	margin: 10px 30px;
+	border-radius:0 10px 10px 0;
+	padding:15px;
+	float:left;
+	width:300px;
+}
+
+.texto_Historia{
+	font-size: 18pt;
+	margin: auto auto;
+	width: 75%;
+	text-align: center;
+}
+
+.texto_informacao_produto{
+	position: absolute;
+	margin: 400px auto;
+	width: 75%;
+	text-align: justify;
+}
+
+.caixa_MVV{
+	height: 500px;
+	text-align: center;
+	width: 100%;
+	margin: 35px auto 5px;
+	display: flex;
+	box-sizing: border-box;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.MVV_texto{
+	font-size: 18pt;
+	color: #263340;
+	text-align: center;
+	padding: 14px;
+	width: 250px;
+	float: left;
+	
+}
+
+.infotexto{
+	margin-right: 10px;
+	padding:20px 20px 0 5px;
+	width:250px;
+	float:left;
+}
+
+.diretos{
+	margin-right: 10px;
+	padding:50px 20px 0 5px;
+	width:250px;
+	float:left;
+}
+.siga{
+	margin-top:20px;
+	margin-right:5px;	
+}
+
+@media only screen and (max-width: 1220px) {
+	.caixa_MVV li{
+		margin:0 5px;	
+	}
+	.MVV_texto{
+		width: 200px;
+	}
+	h1{
+		font-size: 30pt;
+	}
+	p{
+		font-size: 15pt;
+	}
+	.indroducao_Texto{
+		font-size: 18pt;
+	}
+	.MVV_texto1{
+		font-size: 15pt;
+	}
+	.contato_texto{
+		width: 200px;
+	}
+	
+}
+
+
+
+
+
