@@ -1,4 +1,4 @@
-# Sites TCC - ETEC de Itaquera 2019
+# Site para TCC - ETEC de Itaquera 2019
 
 Este repositório contem o site criado para a apresentação do trabalho de conclusão de curso de informática da ETEC de Itaquera.
 O site foi produzidos por mim e pelo [Matheus Facin](https://github.com/mfacin), com artes produzidas por Gustavo Tajima.
